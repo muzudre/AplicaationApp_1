@@ -19,4 +19,10 @@
         <item name="colorPrimaryDark">@color/w1</item>
     </style>
 
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/w3</item>
+        <item name="colorPrimaryDark">@color/w1</item>
+    </style>
+
 </resources>

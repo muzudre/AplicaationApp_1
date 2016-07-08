@@ -6,7 +6,104 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@color/w1"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.muzud.aplicaationapp_1.TimeTable">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/w2"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="375dp"
+                    android:layout_height="82dp">
+
+                    <TextView
+                        android:textSize="40dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Time Table"
+                        android:id="@+id/textView73"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="@color/w2" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/w2" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="252dp"
+                    android:background="@color/w2"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Monday"
+                        android:id="@+id/textView74"
+                        android:textColor="@color/w5"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="45dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Subject:"
+                        android:id="@+id/textView75"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/textView74"
+                        android:layout_toStartOf="@+id/textView74"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginEnd="40dp"
+                        android:textColor="@color/w5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Time:"
+                        android:id="@+id/textView76"
+                        android:layout_alignTop="@+id/textView75"
+                        android:layout_toRightOf="@+id/textView74"
+                        android:layout_toEndOf="@+id/textView74"
+                        android:layout_marginLeft="44dp"
+                        android:layout_marginStart="44dp"
+                        android:textColor="@color/w5" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

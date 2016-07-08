@@ -16,8 +16,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
     }
 
     public void LTR(View view) {
@@ -26,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void TTB(View view) {
+        Intent intent = new Intent(this, TimeTable.class);
+        startActivity(intent);
     }
 
     public void MDL(View view) {
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void EXT(View view) {
-
+        // код позволюши полности виыти из програми
         Intent homeIntent = new Intent(Intent.ACTION_MAIN);
         homeIntent.addCategory( Intent.CATEGORY_HOME );
         homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

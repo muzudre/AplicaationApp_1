@@ -18,8 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity
-            android:name=".Lectures"
+        <activity android:name=".Lectures"
             android:label="Lectures"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme2">
@@ -27,7 +26,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".TimeTable"></activity>
+        <activity android:name=".TimeTable"
+                  android:label="Time Table"
+                  android:theme="@style/AppTheme3"
+                  android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
