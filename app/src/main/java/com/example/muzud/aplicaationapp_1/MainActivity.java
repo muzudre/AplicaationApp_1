@@ -48,6 +48,20 @@ public class MainActivity extends AppCompatActivity {
         startActivity(homeIntent);
     }
 
-    public void VST(View view) {
+    public void insta(View view) {
+        Intent insta = new Intent(this, Lectures.class);
+        startActivity(insta);
+    }
+    public void face(View view) {
+        Intent insta = new Intent(this, Lectures.class);
+        startActivity(insta);
+    }
+    public void twit(View view) {
+        Intent insta = new Intent(this, Lectures.class);
+        startActivity(insta);
+    }
+    public void linkin(View view) {
+        Intent insta = new Intent(this, Lectures.class);
+        startActivity(insta);
     }
 }
