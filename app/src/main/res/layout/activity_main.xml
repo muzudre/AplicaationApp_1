@@ -28,11 +28,11 @@
 
                 <RelativeLayout
                     android:onClick="LTR"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="164dp"
                     android:background="@color/w2"
                     android:layout_gravity="center_vertical"
-                    android:layout_weight=".4"
+                    android:layout_weight="1"
                     android:layout_margin="3dp"
                     android:touchscreenBlocksFocus="false"
                     android:scrollIndicators="start"
@@ -70,10 +70,10 @@
 
                 <RelativeLayout
                     android:onClick="TTB"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="164dp"
                     android:background="@color/w2"
-                    android:layout_weight="0.34"
+                    android:layout_weight="1"
                     android:layout_margin="3dp"
                     android:touchscreenBlocksFocus="false"
                     android:scrollIndicators="start"
@@ -124,12 +124,12 @@
 
                 <RelativeLayout
                     android:onClick="MDL"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="164dp"
                     android:background="@color/w2"
                     android:layout_gravity="center_vertical"
                     android:layout_margin="3dp"
-                    android:layout_weight="0.4"
+                    android:layout_weight="1"
                     android:touchscreenBlocksFocus="false"
                     android:scrollIndicators="start"
                     android:clickable="false">
@@ -166,11 +166,11 @@
 
                 <RelativeLayout
                     android:onClick="PRT"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="164dp"
                     android:background="@color/w2"
                     android:layout_gravity="center_vertical"
-                    android:layout_weight="0.43"
+                    android:layout_weight="1"
                     android:layout_margin="3dp"
                     android:touchscreenBlocksFocus="false"
                     android:scrollIndicators="start"
@@ -217,13 +217,13 @@
 
                 <RelativeLayout
                     android:onClick="LCT"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="164dp"
                     android:background="@color/w2"
                     android:layout_gravity="center_vertical"
                     android:layout_margin="3dp"
                     android:clickable="false"
-                    android:layout_weight="0.21">
+                    android:layout_weight="1">
 
                     <LinearLayout
                         android:orientation="vertical"
@@ -256,11 +256,11 @@
 
                 <RelativeLayout
                     android:onClick="CTC"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="164dp"
                     android:background="@color/w2"
                     android:layout_gravity="center_vertical"
-                    android:layout_weight="0.21"
+                    android:layout_weight="1"
                     android:layout_margin="3dp"
                     android:clickable="false">
 
@@ -306,11 +306,11 @@
 
                     android:id="@+id/ex"
                     android:onClick="EXT"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="164dp"
                     android:background="@color/w2"
                     android:layout_gravity="center_vertical"
-                    android:layout_weight="0.36"
+                    android:layout_weight="1"
                     android:layout_margin="3dp"
                     android:clickable="false">
 
@@ -345,11 +345,11 @@
 
                 <RelativeLayout
                     android:onClick="VST"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="164dp"
                     android:background="@color/w2"
                     android:layout_gravity="center_vertical"
-                    android:layout_weight="0.38"
+                    android:layout_weight="1"
                     android:layout_margin="3dp"
                     android:clickable="false">
 

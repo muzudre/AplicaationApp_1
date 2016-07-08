@@ -36,7 +36,8 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="fill_parent" >
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
 
                         <ImageView
                             android:layout_width="wrap_content"
@@ -161,7 +162,8 @@
 
                     <RelativeLayout
                         android:layout_width="match_parent"
-                        android:layout_height="fill_parent">
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1">
 
                         <ImageView
                             android:layout_width="wrap_content"
@@ -441,7 +443,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Mr. Mahdi"
+                            android:text="Mr. Matthy Wee"
                             android:id="@+id/textView34"
                             android:layout_alignParentTop="true"
                             android:layout_toRightOf="@+id/textView25"
@@ -487,7 +489,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Mahdi@gmail.com"
+                            android:text="Matthy@gmail.com"
                             android:id="@+id/textView38"
                             android:layout_below="@+id/textView34"
                             android:layout_alignLeft="@+id/textView34"
@@ -566,7 +568,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Mr. Mahdi"
+                            android:text="Mr. Wael"
                             android:id="@+id/textView42"
                             android:layout_alignParentTop="true"
                             android:layout_toRightOf="@+id/textView41"
@@ -612,7 +614,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Mahdi@gmail.com"
+                            android:text="Wael@gmail.com"
                             android:id="@+id/textView46"
                             android:layout_below="@+id/textView42"
                             android:layout_alignLeft="@+id/textView42"
@@ -691,7 +693,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Mr. Mahdi"
+                            android:text="Mr. Mutaz"
                             android:id="@+id/textView50"
                             android:layout_alignParentTop="true"
                             android:layout_toRightOf="@+id/textView49"
@@ -737,7 +739,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Mahdi@gmail.com"
+                            android:text="Mutaz@gmail.com"
                             android:id="@+id/textView54"
                             android:layout_below="@+id/textView50"
                             android:layout_alignLeft="@+id/textView50"
