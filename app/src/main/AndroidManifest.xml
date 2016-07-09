@@ -17,8 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Lectures"
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".Lectures"
             android:label="Lectures"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme2">
@@ -26,10 +28,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".TimeTable"
-                  android:label="Time Table"
-                  android:theme="@style/AppTheme3"
-                  android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".TimeTable"
+            android:label="Time Table"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme3" />
+        <activity android:name=".Modules"
+            android:parentActivityName=".MainActivity"
+            android:label="Modules"
+            android:theme="@style/AppTheme4"></activity>
     </application>
 
 </manifest>

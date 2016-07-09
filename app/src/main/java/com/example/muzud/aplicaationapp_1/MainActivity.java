@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void MDL(View view) {
+        Intent intent = new Intent(this, Modules.class);
+        startActivity(intent);
     }
 
     public void PRT(View view) {

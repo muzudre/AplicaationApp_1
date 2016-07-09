@@ -10,70 +10,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.muzud.aplicaationapp_1.TimeTable">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout4">
-
-        <RelativeLayout
-            android:layout_width="375dp"
-            android:layout_height="82dp" >
-
-            <TextView
-                android:textSize="40dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="Time Table"
-                android:id="@+id/textView94"
-                android:textColor="@color/w2"
-                android:layout_centerVertical="true"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginRight="64dp"
-                android:layout_marginEnd="64dp" />
-
-            <LinearLayout
-                android:id="@+id/linearLayout3"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="@color/w2"
-                android:layout_below="@+id/textView94"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_marginTop="6dp" />
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="3dp"
-                android:background="@color/w2" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageView8"
-                android:src="@drawable/g3"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_marginLeft="27dp"
-                android:layout_marginStart="27dp"
-                android:layout_alignTop="@+id/textView94"
-                android:layout_alignBottom="@+id/textView94"
-                android:layout_toLeftOf="@+id/textView94"
-                android:layout_toStartOf="@+id/textView94" />
-
-        </RelativeLayout>
-
-    </LinearLayout>
-
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/scrollView"
-        android:layout_below="@+id/linearLayout4"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentLeft="true"
@@ -87,7 +27,8 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="0dp"
+                android:layout_weight="1">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
