@@ -18,6 +18,7 @@ public class SplashScreen extends AppCompatActivity {
 
 
 
+
         Animation anim1 = AnimationUtils.loadAnimation(this, R.anim.move_up);
         TextView textView = (TextView)findViewById(R.id.textView);
         textView.setAnimation(anim1);
@@ -31,6 +32,6 @@ public class SplashScreen extends AppCompatActivity {
                 finish();
 
             }
-        }, 4000);
+        }, 2500);
     }
 }
