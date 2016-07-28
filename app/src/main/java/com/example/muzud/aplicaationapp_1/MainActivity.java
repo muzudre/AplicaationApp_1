@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.webkit.WebView;
 import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void PRT(View view) {
+        Intent intent = new Intent(this, Portal.class);
+        startActivity(intent);
     }
 
     public void LCT(View view) {
@@ -51,19 +54,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void insta(View view) {
-        Intent insta = new Intent(this, Lectures.class);
+        Intent insta = new Intent(this, Instagram.class);
         startActivity(insta);
     }
     public void face(View view) {
-        Intent insta = new Intent(this, Lectures.class);
+        Intent insta = new Intent(this, Facebook.class);
         startActivity(insta);
     }
     public void twit(View view) {
-        Intent insta = new Intent(this, Lectures.class);
+        Intent insta = new Intent(this, Twitter.class);
         startActivity(insta);
     }
     public void linkin(View view) {
-        Intent insta = new Intent(this, Lectures.class);
+        Intent insta = new Intent(this, Linkedin.class);
         startActivity(insta);
     }
 }
