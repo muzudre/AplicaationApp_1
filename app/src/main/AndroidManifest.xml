@@ -51,18 +51,23 @@
             android:label="Facebook"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme4" />
-        <activity android:name=".Instagram"
+        <activity
+            android:name=".Instagram"
             android:label="Instagram"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme4"/>
-        <activity android:name=".Twitter"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".Twitter"
             android:label="Twitter"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme4"/>
-        <activity android:name=".Linkedin"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".Linkedin"
             android:label="Linkedin"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme4"></activity>
+            android:theme="@style/AppTheme4" />
+        <activity android:name=".Location" />
+        <activity android:name=".Contacts"></activity>
     </application>
 
 </manifest>
