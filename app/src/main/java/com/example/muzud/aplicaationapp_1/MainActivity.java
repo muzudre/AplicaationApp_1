@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void LCT(View view) {
+        Intent intent = new Intent(this, MapsActivity.class);
+        startActivity(intent);
     }
 
     public void CTC(View view) {
