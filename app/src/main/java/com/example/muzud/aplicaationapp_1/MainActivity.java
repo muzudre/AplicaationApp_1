@@ -9,6 +9,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.webkit.WebView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,15 +18,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
     }
 
     public void LTR(View view) {
         Intent intent = new Intent(this, Lectures.class);
+
         startActivity(intent);
     }
 
     public void TTB(View view) {
         Intent intent = new Intent(this, TimeTable.class);
+
         startActivity(intent);
     }
 
@@ -45,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void CTC(View view) {
+        Intent intent = new Intent(this, Contacts.class);
+        startActivity(intent);
     }
 
     public void EXT(View view) {

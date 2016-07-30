@@ -77,7 +77,10 @@
             android:label="Location"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme4" />
-        <activity android:name=".Contacts" />
+        <activity android:name=".Contacts"
+            android:label="Contacts"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme4"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
