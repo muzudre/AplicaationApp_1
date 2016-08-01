@@ -3,6 +3,8 @@
     package="com.example.muzud.aplicaationapp_1">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -28,12 +30,14 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme2"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Lectures"
             android:label="Lectures"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme2">
+            android:theme="@style/AppTheme2"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
@@ -42,17 +46,20 @@
             android:name=".TimeTable"
             android:label="Time Table"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme3" />
+            android:theme="@style/AppTheme3"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Modules"
             android:label="Modules"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme4" />
+            android:theme="@style/AppTheme4"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Portal"
             android:label="Portal"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme4" />
+            android:theme="@style/AppTheme4"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Facebook"
             android:label="Facebook"
@@ -62,25 +69,30 @@
             android:name=".Instagram"
             android:label="Instagram"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme4" />
+            android:theme="@style/AppTheme4"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Twitter"
             android:label="Twitter"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme4" />
+            android:theme="@style/AppTheme4"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Linkedin"
             android:label="Linkedin"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme4" />
+            android:theme="@style/AppTheme4"
+            android:screenOrientation="portrait"/>
         <activity android:name=".Location"
             android:label="Location"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme4" />
+            android:theme="@style/AppTheme4"
+            android:screenOrientation="portrait"/>
         <activity android:name=".Contacts"
-            android:label="Contacts"
+            android:label="About"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme4"/>
+            android:theme="@style/AppTheme4"
+            android:screenOrientation="portrait"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -100,7 +112,12 @@
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme4"></activity>
+            android:theme="@style/AppTheme4"
+            android:screenOrientation="portrait"></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

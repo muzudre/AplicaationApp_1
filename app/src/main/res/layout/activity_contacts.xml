@@ -19,14 +19,97 @@
         android:layout_height="match_parent">
 
         <TextView
+            android:textSize="28dp"
             android:textColor="#fff"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Limkokwing"
+            android:text="Limkokwing University"
             android:id="@+id/textView49"
-            android:layout_marginBottom="229dp"
+            android:layout_marginTop="23dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Address:"
+            android:id="@+id/textView14"
+            android:layout_marginBottom="82dp"
+            android:layout_above="@+id/textView51"
+            android:layout_alignLeft="@+id/textView49"
+            android:layout_alignStart="@+id/textView49" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Phone:"
+            android:id="@+id/textView50"
+            android:layout_below="@+id/textView53"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignStart="@+id/textView14" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Established:"
+            android:id="@+id/textView51"
+            android:layout_marginBottom="28dp"
+            android:layout_above="@+id/textView52"
+            android:layout_alignLeft="@+id/textView50"
+            android:layout_alignStart="@+id/textView50" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="www.limkokwing.net"
+            android:id="@+id/textView52"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Inovasi 1-1, Jalan Teknokrat 1/1, 63000 Cyberjaya, Selangor, Malaysia"
+            android:id="@+id/textView53"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/textView14"
+            android:layout_toRightOf="@+id/textView51"
+            android:layout_toEndOf="@+id/textView51" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="+60383178888"
+            android:id="@+id/textView54"
+            android:textSize="15dp"
+            android:layout_alignBottom="@+id/textView50"
+            android:layout_alignLeft="@+id/textView53"
+            android:layout_alignStart="@+id/textView53" />
+
+        <TextView
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1991"
+            android:id="@+id/textView55"
+            android:textSize="20dp"
+            android:layout_alignTop="@+id/textView51"
+            android:layout_alignRight="@+id/textView52"
+            android:layout_alignEnd="@+id/textView52" />
+
     </RelativeLayout>
 </RelativeLayout>
